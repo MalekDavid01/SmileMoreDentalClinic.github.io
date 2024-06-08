@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Smile More Dental Clinic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="pics/ClinicLogo.png" alt="Logo" width="50" height="50" class="d-inline-block align-middle">
+                <span class="ms-2">Smile More Dental Clinic</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_team.html">Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="virtual_consultation.html">Virtual Consultation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our_clinic.html">Our Clinic</a>
+                    </li>
+                </ul>
+                <a href="book_appointment.html" class="btn btn-primary ms-3">Book an Appointment</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Services Container -->
+    <div class="container my-5">
+        <div class="text-center">
+            <h2 class="mb-4">Our Services</h2>
+            <h4 class="mb-4">Navigate through our dental services and book an appointment for a consultation!</h4>
+            <ul class="nav nav-tabs justify-content-center mb-5" id="serviceTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="general-tab" data-bs-toggle="tab" data-bs-target="#general"
+                        type="button" role="tab" aria-controls="general" aria-selected="true">General Dentistry</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cosmetic-tab" data-bs-toggle="tab" data-bs-target="#cosmetic"
+                        type="button" role="tab" aria-controls="cosmetic" aria-selected="false">Cosmetic
+                        Dentistry</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pediatric-tab" data-bs-toggle="tab" data-bs-target="#pediatric"
+                        type="button" role="tab" aria-controls="pediatric" aria-selected="false">Pediatric
+                        Dentistry</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="oral-tab" data-bs-toggle="tab" data-bs-target="#oral" type="button"
+                        role="tab" aria-controls="oral" aria-selected="false">Oral Surgery</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="emergency-tab" data-bs-toggle="tab" data-bs-target="#emergency"
+                        type="button" role="tab" aria-controls="emergency" aria-selected="false">Emergency
+                        Dentistry</button>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="serviceTabsContent">
+                <!-- General Dentistry -->
+                <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pics/general1.png" alt="Routine Check-ups" class="service-img mb-3">
+                            <div class="accordion" id="accordionGeneral1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingGeneral1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseGeneral1"
+                                            aria-expanded="true" aria-controls="collapseGeneral1">
+                                            Routine Check-ups
+                                        </button>
+                                    </h2>
+                                    <div id="collapseGeneral1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingGeneral1" data-bs-parent="#accordionGeneral1">
+                                        <div class="accordion-body">
+                                            <p>Regular dental check-ups are crucial for maintaining oral health and
+                                                catching problems early.</p>
+                                            <p><strong>Service Cost:</strong> 150$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/general2.png" alt="Cleaning" class="service-img mb-3">
+                            <div class="accordion" id="accordionGeneral2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingGeneral2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseGeneral2"
+                                            aria-expanded="true" aria-controls="collapseGeneral2">
+                                            Cleaning
+                                        </button>
+                                    </h2>
+                                    <div id="collapseGeneral2" class="accordion-collapse collapse"
+                                        aria-labelledby="headingGeneral2" data-bs-parent="#accordionGeneral2">
+                                        <div class="accordion-body">
+                                            <p>Professional teeth cleaning for protecting teeth.</p>
+                                            <p><strong>Service Cost:</strong> 200$ per session</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/general3.png" alt="Fillings" class="service-img mb-3">
+                            <div class="accordion" id="accordionGeneral3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingGeneral3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseGeneral3"
+                                            aria-expanded="true" aria-controls="collapseGeneral3">
+                                            Fillings
+                                        </button>
+                                    </h2>
+                                    <div id="collapseGeneral3" class="accordion-collapse collapse"
+                                        aria-labelledby="headingGeneral3" data-bs-parent="#accordionGeneral3">
+                                        <div class="accordion-body">
+                                            <p>Dental fillings are used to treat cavities and restore teeth to their
+                                                normal function and shape.</p>
+                                            <p><strong>Service Cost:</strong> 200$ per filling</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cosmetic Dentistry -->
+                <div class="tab-pane fade" id="cosmetic" role="tabpanel" aria-labelledby="cosmetic-tab">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pics/cosmetic1.png" alt="Teeth Whitening" class="service-img mb-3">
+                            <div class="accordion" id="accordionCosmetic1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingCosmetic1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseCosmetic1"
+                                            aria-expanded="true" aria-controls="collapseCosmetic1">
+                                            Teeth Whitening
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCosmetic1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingCosmetic1" data-bs-parent="#accordionCosmetic1">
+                                        <div class="accordion-body">
+                                            <p>Brighten your smile with our professional teeth whitening services.</p>
+                                            <p><strong>Service Cost:</strong> 500$ per session</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/cosmetic2.jpg" alt="Veneers" class="service-img mb-3">
+                            <div class="accordion" id="accordionCosmetic2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingCosmetic2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseCosmetic2"
+                                            aria-expanded="true" aria-controls="collapseCosmetic2">
+                                            Veneers
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCosmetic2" class="accordion-collapse collapse"
+                                        aria-labelledby="headingCosmetic2" data-bs-parent="#accordionCosmetic2">
+                                        <div class="accordion-body">
+                                            <p>Veneers are thin, custom-made shells designed to cover the front side of
+                                                teeth to improve their appearance.</p>
+                                            <p><strong>Service Cost:</strong> 2000$ per tooth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/cosmetic3.jpg" alt="Invisalign" class="service-img mb-3">
+                            <div class="accordion" id="accordionCosmetic3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingCosmetic3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseCosmetic3"
+                                            aria-expanded="true" aria-controls="collapseCosmetic3">
+                                            Invisalign
+                                        </button>
+                                    </h2>
+                                    <div id="collapseCosmetic3" class="accordion-collapse collapse"
+                                        aria-labelledby="headingCosmetic3" data-bs-parent="#accordionCosmetic3">
+                                        <div class="accordion-body">
+                                            <p>Invisalign is a clear aligner system to straighten teeth without
+                                                traditional metal braces.</p>
+                                            <p><strong>Service Cost:</strong> 5000$ for the full treatment</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pediatric Dentistry -->
+                <div class="tab-pane fade" id="pediatric" role="tabpanel" aria-labelledby="pediatric-tab">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pics/pediatric1.png" alt="Pediatric Check-ups" class="service-img mb-3">
+                            <div class="accordion" id="accordionPediatric1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPediatric1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsePediatric1"
+                                            aria-expanded="true" aria-controls="collapsePediatric1">
+                                            Pediatric Check-ups
+                                        </button>
+                                    </h2>
+                                    <div id="collapsePediatric1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingPediatric1" data-bs-parent="#accordionPediatric1">
+                                        <div class="accordion-body">
+                                            <p>Regular check-ups for children to ensure healthy teeth development.</p>
+                                            <p><strong>Service Cost:</strong> 75$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/pediatric2.jpg" alt="Sealants" class="service-img mb-3">
+                            <div class="accordion" id="accordionPediatric2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPediatric2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsePediatric2"
+                                            aria-expanded="true" aria-controls="collapsePediatric2">
+                                            Sealants
+                                        </button>
+                                    </h2>
+                                    <div id="collapsePediatric2" class="accordion-collapse collapse"
+                                        aria-labelledby="headingPediatric2" data-bs-parent="#accordionPediatric2">
+                                        <div class="accordion-body">
+                                            <p>Sealants protect children's teeth from cavities by providing a protective
+                                                coating.</p>
+                                            <p><strong>Service Cost:</strong> 40$ per tooth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/pediatric3.jpg" alt="Fluoride Treatments" class="service-img mb-3">
+                            <div class="accordion" id="accordionPediatric3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPediatric3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsePediatric3"
+                                            aria-expanded="true" aria-controls="collapsePediatric3">
+                                            Fluoride Treatments
+                                        </button>
+                                    </h2>
+                                    <div id="collapsePediatric3" class="accordion-collapse collapse"
+                                        aria-labelledby="headingPediatric3" data-bs-parent="#accordionPediatric3">
+                                        <div class="accordion-body">
+                                            <p>Fluoride treatments help strengthen teeth and prevent decay in children.
+                                            </p>
+                                            <p><strong>Service Cost:</strong> 30$ per treatment</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Oral Surgery -->
+                <div class="tab-pane fade" id="oral" role="tabpanel" aria-labelledby="oral-tab">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pics/oral1.jpg" alt="Tooth Extractions" class="service-img mb-3">
+                            <div class="accordion" id="accordionOral1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOral1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOral1"
+                                            aria-expanded="true" aria-controls="collapseOral1">
+                                            Tooth Extractions
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOral1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOral1" data-bs-parent="#accordionOral1">
+                                        <div class="accordion-body">
+                                            <p>Safe and effective tooth extraction services for problematic teeth.</p>
+                                            <p><strong>Service Cost:</strong> 200$ per tooth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/oral2.jpg" alt="Wisdom Teeth Removal" class="service-img mb-3">
+                            <div class="accordion" id="accordionOral2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOral2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOral2"
+                                            aria-expanded="true" aria-controls="collapseOral2">
+                                            Wisdom Teeth Removal
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOral2" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOral2" data-bs-parent="#accordionOral2">
+                                        <div class="accordion-body">
+                                            <p>Expert removal of wisdom teeth to prevent future dental issues.</p>
+                                            <p><strong>Service Cost:</strong> 200$ per tooth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/oral3.jpg" alt="Dental Implants" class="service-img mb-3">
+                            <div class="accordion" id="accordionOral3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOral3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOral3"
+                                            aria-expanded="true" aria-controls="collapseOral3">
+                                            Dental Implants
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOral3" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOral3" data-bs-parent="#accordionOral3">
+                                        <div class="accordion-body">
+                                            <p>Dental implants to replace missing teeth and restore your smile.</p>
+                                            <p><strong>Service Cost:</strong> 3000$ per implant</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emergency Dentistry -->
+                <div class="tab-pane fade" id="emergency" role="tabpanel" aria-labelledby="emergency-tab">
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pics/emergency1.jpg" alt="Toothache Relief" class="service-img mb-3">
+                            <div class="accordion" id="accordionEmergency1">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEmergency1">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEmergency1"
+                                            aria-expanded="true" aria-controls="collapseEmergency1">
+                                            Toothache Relief
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEmergency1" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEmergency1" data-bs-parent="#accordionEmergency1">
+                                        <div class="accordion-body">
+                                            <p>Immediate relief for severe toothaches and dental pain.</p>
+                                            <p><strong>Service Cost:</strong> 100$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/emergency2.png" alt="Broken Tooth Repair" class="service-img mb-3">
+                            <div class="accordion" id="accordionEmergency2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEmergency2">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEmergency2"
+                                            aria-expanded="true" aria-controls="collapseEmergency2">
+                                            Broken Tooth Repair
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEmergency2" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEmergency2" data-bs-parent="#accordionEmergency2">
+                                        <div class="accordion-body">
+                                            <p>Fast and effective repair for broken or chipped teeth.</p>
+                                            <p><strong>Service Cost:</strong> 200$</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <img src="pics/emergency3.jpg" alt="Emergency Extractions" class="service-img mb-3">
+                            <div class="accordion" id="accordionEmergency3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingEmergency3">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEmergency3"
+                                            aria-expanded="true" aria-controls="collapseEmergency3">
+                                            Emergency Extractions
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEmergency3" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEmergency3" data-bs-parent="#accordionEmergency3">
+                                        <div class="accordion-body">
+                                            <p>Quick extractions for teeth that are causing severe pain or other issues.
+                                            </p>
+                                            <p><strong>Service Cost:</strong> 200$ per tooth</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Book an Appointment Button and Info Text -->
+        <div class="text-center my-4">
+            <a href="book_appointment.html" class="btn btn-primary">Book an Appointment for a Consultation</a>
+        </div>
+        <div class="text-center mb-4">
+            <p>Check out the <a href="virtual_consultation.html" class="text-primary">Virtual Consultation</a> page for
+                preventive measures and for our online queue to meet with a specialist!</p>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer bg-light text-dark py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h6>Opening Hours</h6>
+                    <ul class="list-unstyled small">
+                        <li>Monday - Saturday: 9:00 AM - 5:00 PM</li>
+                        <li>Sunday: Closed</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-2 mb-md-0">
+                    <h6>Contact Us</h6>
+                    <p class="small contact-info"><i class="bi bi-telephone-fill"></i> +1 (613) 111-2222</p>
+                    <p class="small contact-info"><i class="bi bi-envelope-fill"></i> smile@more.ca</p>
+                    <p class="small contact-info"><i class="bi bi-geo-alt-fill"></i> 123 Dentist Drive, Ottawa,
+                        Ontario, Canada, K1G0A0</p>
+                </div>
+                <div class="col-md-4">
+                    <h6>Follow Us</h6>
+                    <a href="#" class="me-2 small"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="me-2 small"><i class="bi bi-youtube"></i></a>
+                    <a href="#" class="me-2 small"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="small"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center py-1 bg-dark text-white small">
+            &copy; 2024 Smile More Dental Clinic. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
